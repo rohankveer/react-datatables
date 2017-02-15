@@ -1,5 +1,5 @@
-# react-localization
-react localization
+# react Datatables
+react with Datatables
 
 Steps to execute :
   - npm install
