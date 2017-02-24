@@ -24,11 +24,13 @@ var config = {
          },
          { 
              test: /\.ya?ml$/, 
-             loader: 'json-loader!yaml-loader' },
-          {
-              test: /datatables\.net.*/,
-              loader: 'imports-loader?define=>false'
-          }
+             loader: 'json-loader!yaml-loader' 
+        },
+        {
+            test: /\.css$/,
+            use: [ 'style-loader', 'css-loader' ]
+        }
+          
       ]
    }
 }

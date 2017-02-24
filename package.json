@@ -16,6 +16,7 @@
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.26.1",
     "datatables.net": "^1.10.13",
     "datatables.net-dt": "^1.10.13",
     "i18n-react": "^0.3.0-ts1",

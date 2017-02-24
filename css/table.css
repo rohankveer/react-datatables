@@ -1,0 +1,115 @@
+#rv-datatable{
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+}
+
+#rv-datatable th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+#rv-datatable td:first-child, #rv-datatable th:first-child {
+    border-left: none;
+}
+
+#rv-datatable th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image: -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image: -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image: -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image: linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+#rv-datatable th{
+    padding: 10px;
+    cursor: pointer;
+} 
+
+#rv-datatable td{
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+#rv-datatable_length select{
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background-position: 90% center;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    color: #555;
+    font-size: inherit;
+    margin: 5px;
+    overflow: hidden;
+    padding: 4px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80px;
+}
+
+#rv-datatable_filter input{
+    margin-left: 10px;
+    background-color: #E1ECFA;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#rv-datatable_filter,#rv-datatable_paginate{
+    float: right;
+}
+
+#rv-datatable_length,#rv-datatable_info{
+    float: left;
+}
+
+#rv-datatable_filter,#rv-datatable_length,#rv-datatable_info,#rv-datatable_paginate{
+    display: inline-block;
+    margin: 15px 0;
+}
+
+.paginate_button.current{
+    background-color: #E1ECFA;
+}
+
+.paginate_button.disabled{
+    color: #a0a0a0;
+    pointer-events: none;
+}
+
+.paginate_button{
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 3px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.paginate_button.previous, .paginate_button.next{
+    padding: 4px 10px;
+    background-color: #E1ECFA;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
